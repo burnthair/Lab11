@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #343;
-  font-family: 'Bellefair', serif;
+  font-family: 'Old Standard TT', serif;
 }
 
 header {
@@ -26,7 +26,26 @@ img {
 .created-entry {
   display: inline-block;
   background-color: #DED;
-  margin: 16px;
-  padding: 10px;
+  margin: 20px;
+  padding: 12px;
   width: 33%;
+  border-radius: 3px;
+}
+
+.title-container{
+  height: 20px;
+}
+
+.title {
+  font-weight: 900;
+}
+
+.author {
+  margin-top: 30px;
+  font-style: italic;
+}
+
+.date {
+  letter-spacing: -.1em;
+  font-size: .8em;
 }

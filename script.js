@@ -11,9 +11,10 @@ $(document).ready(function(){
     for (var i = 0; i < data.length; i++) {
       console.log(data[i]);
       var date = new Date(data[i].data.created_utc * 1000);
-      console.log(data[i].data.created_utc)
-      console.log(date);
-      $('.content').append('<div class="created-entry"><img src="' + data[i].data.thumbnail + '"/><p>' + data[i].data.title + '</p><p> -- ' + data[i].data.author + '</p><p>' + date + '</p></div>');
+      var day = date.getDay();
+      console.log(day);
+
+      $('.content').append('<div class="created-entry"><img src="' + data[i].data.thumbnail + '"/><div class="title-container"><p class="title">' + data[i].data.title + '</p></div><p class="author"> -- ' + data[i].data.author + '</p><p class="date">' + date + '</p></div>');
     }
   }
 
