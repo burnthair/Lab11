@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #343;
+  font-family: 'Bellefair', serif;
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Quicksand', sans-serif;
+  color: #DED;
+}
+
+img {
+  width: 140px;
+  height: 140px;
+}
+
+.content {
+  text-align: center;
+}
+
+.created-entry {
+  display: inline-block;
+  background-color: #DED;
+  margin: 16px;
+  padding: 10px;
+  width: 33%;
+}
