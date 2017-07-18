@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #343;
+  background-color: #676;
   font-family: 'Old Standard TT', serif;
 }
 
@@ -26,8 +26,8 @@ img {
 .created-entry {
   display: inline-block;
   background-color: #DED;
-  margin: 20px;
-  padding: 12px;
+  margin: 4px;
+  padding: 0px;
   width: 33%;
   border-radius: 3px;
 }
